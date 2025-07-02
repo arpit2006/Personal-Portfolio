@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arpit - Professional Portfolio Website showcasing my work and skills">
+    <meta name="keywords" content="portfolio, web developer, designer, arpit, projects">
+    <meta name="author" content="Arpit">
+    <title>Arpit | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="custom-cursor">
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home" class="gradient-text">Arpit's Portfolio</a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> -->
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="gradient-text">Arpit</span></h1>
+                <h2 class="neon-text">Aspiring Web Developer & Programmer</h2>
+                <p>Currently learning Development to create functional websites and applications with focus on user
+                    experience and modern design.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn gradient-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container float-animation">
+                    <!-- Placeholder for profile image -->
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <!-- Placeholder for about image -->
+                        <div class="about-placeholder">
+                            <!-- <i class="fas fa-user-tie"></i> --> <img src="me.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="fancy-border">Who am I?</h3>
+                    <p>I am aspiring web developer with learning in HTML, CSS, JavaScript, and some programming
+                        language.</p>
+
+                    <h3 class="fancy-border">My Education</h3>
+                    <!-- <p>My journey in web development began 3 years ago when I built my first website. Since then, I've worked on numerous projects, constantly learning and improving my skills to stay at the forefront of web technologies.</p> -->
+                    <p>Currently pursuing my Bachelors in Computer Science and Engineering from <b>Vellore Institute of Technology,Andhra Pradesh.</b></p>
+
+                    <h3 class="fancy-border">What I am learning </h3>
+                    <div class="services">
+                        <div class="service-item glass-effect hover-glow">
+                            <i class="fas fa-code"></i>
+                            <h4>Web Development</h4>
+                            <p>Building responsive and interactive websites from scratch.</p>
+                        </div>
+                        <div class="service-item glass-effect hover-glow">
+                            <!-- <i class="fas fa-coffee"></i> -->
+                             <img src="image.png" alt="Java Logo" style="height: 70px;">
+
+                            <h4>Programming language</h4>
+                            <p>Learning DSA in Java.</p>
+                        </div>
+                        <div class="service-item glass-effect hover-glow">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Responsive Design</h4>
+                            <p>Making websites work perfectly on all devices.</p>
+                        </div>
+                    </div>
+
+                    <!-- <a href="#" class="btn gradient-btn download-btn"><i class="fas fa-download"></i> Download CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills dots-pattern">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <p>Actively working with diverse technologies across software development and coding domains. </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category glass-effect hover-glow">
+                        <h3 class="fancy-border">Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-tooltip="Expert level in HTML5">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <div class="skill-info">
+                                    <h4>HTML</h4>
+                                    <div class="progress-bar progress-animated">
+                                        <div class="progress" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-tooltip="Advanced CSS skills">
+                                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>CSS</h4>
+                                    <div class="progress-bar progress-animated">
+                                        <div class="progress" style="width: 30%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-tooltip="Strong JavaScript proficiency">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="progress-bar progress-animated">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-tooltip="React application development">
+                                <div class="skill-icon"><i class="fab fa-reactt"></i></div>
+                                <div class="skill-info">
+                                    <h4></h4>
+                                    <div class="progress-bar progress-animated">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-effect hover-glow">
+                        <h3 class="fancy-border">Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>Node.js</h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-databasee"></i></div>
+                                <div class="skill-info">
+                                    <h4></h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 00%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-serverr"></i></div>
+                                <div class="skill-info">
+                                    <h4></h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-phpp"></i></div>
+                                <div class="skill-info">
+                                    <h4></h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-effect hover-glow">
+                        <h3 class="fancy-border">Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>Git</h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 20%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                                <div class="skill-info">
+                                    <h4>Figma</h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 10%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-npmm"></i></div>
+                                <div class="skill-info">
+                                    <h4></h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-dockerr"></i></div>
+                                <div class="skill-info">
+                                    <h4></h4>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="info">Currently Working on it :) </div>
+            <!-- <div class="projects-grid">
+                <div class="project-card glass-effect hover-glow" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>A fully-functional e-commerce platform with shopping cart and payment integration.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-effect hover-glow" data-category="app">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>A weather application that displays current weather and forecasts for any location.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-effect hover-glow" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete brand identity design including logo, color scheme, and style guide.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-effect hover-glow" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A task management application with user authentication and task categorization.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-effect hover-glow" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Redesign</h3>
+                        <p>Redesign of an existing website to improve user experience and aesthetics.</p>
+                        <div class="project-tech">
+                            <span>UI/UX</span>
+                            <span>Wireframing</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-effect hover-glow" data-category="app">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Budget Calculator</h3>
+                        <p>An application that helps users track their expenses and manage budgets.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact lines-pattern">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info glass-effect">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me anytime. I'm always open to discussing new projects, creative ideas,
+                        or opportunities to be part of your vision.</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Amravati, Maharashtra, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>arpitshirbhate4@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 XXXXXXXXXX</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="www.linkedin.com/in/arpit-shirbhate" class="social-link"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/arpit2006" class="social-link" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://x.com/ShirbhateArpit?t=29ET2AtM9sLyEmmESdjHcw&s=09" class="social-link"
+                            target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/arpit__shirbhate/?__d=1%2F" class="social-link"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass-effect">
+                    <h3>Send Me a Message</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn gradient-btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle hover-glow">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class = "madeby" class="gradient-text">Arpit Archana Rajendra Shirbhate</a>
+                </div>
+                <div class="footer-text">
+                    <!-- <p>&copy; 2025 Arpit. All rights reserved.</p> -->
+                </div>
+                <!-- <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript to handle navigation and interactivity -->
+    <script>
+        // Mobile Navigation Toggle
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Project filtering functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filter = button.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Back to top button visibility
+        window.addEventListener('scroll', function () {
+            const backToTop = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const htmlElement = document.documentElement;
+        const themeIcon = document.querySelector('.theme-toggle i');
+
+        // Check for saved theme preference or use default
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        htmlElement.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        themeToggle.addEventListener('click', function () {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            htmlElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+
+            updateThemeIcon(newTheme);
+
+            // Add fade-in animation to sections when theme changes
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.add('fade-in');
+                setTimeout(() => {
+                    section.classList.remove('fade-in');
+                }, 1000);
+            });
+        });
+
+        function updateThemeIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        }
+
+        // Add scroll animations
+        const sections = document.querySelectorAll('section');
+
+        function checkSections() {
+            const triggerBottom = window.innerHeight / 5 * 4;
+
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+
+                if (sectionTop < triggerBottom) {
+                    section.classList.add('fade-in');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkSections);
+        checkSections(); // Check on initial load
+    </script>
+</body>
+
+</html>
